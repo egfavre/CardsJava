@@ -53,4 +53,28 @@ public class Card {
         result = 31 * result + rank.hashCode();
         return result;
     }
+
+    public Suit getSuit() {
+        return suit;
+    }
+
+    public void setSuit(Suit suit) {
+        this.suit = suit;
+    }
+
+    public Rank getRank() {
+        return rank;
+    }
+
+    public void setRank(Rank rank) {
+        this.rank = rank;
+    }
+
+    @Override
+    public String toString() {
+        return "Card{" +
+                "suit=" + suit +
+                ", rank=" + rank +
+                '}';
+    }
 }
