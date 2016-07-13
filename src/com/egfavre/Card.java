@@ -4,14 +4,14 @@ package com.egfavre;
  * Created by user on 7/12/16.
  */
 public class Card {
-    enum Suit {
+    public enum Suit {
         CLUBS,
         DIAMONDS,
         HEARTS,
         SPADES
     }
 
-    enum Rank {
+    public enum Rank {
         ACE,
         TWO,
         THREE,
